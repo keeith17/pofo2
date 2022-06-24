@@ -1,0 +1,404 @@
+// @미디어 스크린 프린터 티브이 각종 매체 and (최대너비:599){
+//     스타일선택자{
+//         반응형에 맞추어 수정 후 작업
+//     }
+// }
+
+//미디어쿼리 반응형
+@media all and (max-width:1170px){
+
+    #wrap #main #section1 .slide-container .slide-view .slide-wrap .slide .caption {
+        h3 {
+            font-size:1.538461538vw;
+        }
+        h2 {
+            font-size:5.982905983vw;
+        }
+    }
+
+    #wrap #main #section6 .container .gap .wrap .content > ul {
+        flex-flow:row wrap;
+        >li {
+            width:50%;
+            .col-gap {
+                margin:5px;
+            }
+        }
+    }
+
+    #wrap #main #section8 .container .gap .wrap .content > ul {
+        flex-flow:row wrap;
+        > li {
+            width:100%;
+            &:nth-child(1){
+                .img-box {
+                    height:500px;
+                }
+            }
+            &:nth-child(2){
+                ul {
+                    li {
+                        h2 {
+                            font-size:2.56410vw;
+                            line-height:4vw;
+                        }
+                        text-align:center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//내비게이션 모바일 동작 크기
+@media all and (max-width:991px){
+
+    #wrap #header .container .gap {
+        padding: 0 40px;
+        .wrap {
+            .mobile-btn-box {
+                display: block;
+            }
+            #nav {
+                display:none;
+                align-items:flex-start;
+                position:absolute;
+                top:72px;
+                left:0;
+
+                width:100%;
+                height:auto;
+                overflow-y: auto;
+                background:rgba(0,0,0,1);
+                > ul {
+                    width:100%;
+                    height:auto;
+                    display:block;
+                    > li {
+                        height:auto;
+                        margin:0;
+                        border-bottom:1px solid #444;
+                        a.main-btn {
+                            color:#fff;
+                            height:38px;
+                            line-height:38px;
+                            padding:0 20px;
+                        }
+                        .sub1356 {
+                            display:none;
+                            position:relative;
+                            top:0;
+                            left:0;
+                            .sub-gap {
+                                padding:0 20px;
+                                ul {
+                                    width:100%;
+                                    display:block;
+                                    li {
+                                        width:100%;
+                                        border-right:0;
+                                        dl {
+                                            padding:0;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .sub24 {
+                            display:none;
+                            position:relative;
+                            top:0;
+                            left:0;
+                            width:100%;
+                            > .sub-gap {
+                                padding:0 20px;
+                                > ul {
+                                    > li {
+                                        border-bottom:1px solid #303030;
+                                        > a {
+                                            > span {
+                                                color:#fff;
+                                            }
+                                        }
+                                        .sub-sub {
+                                            display:block;
+                                            position:relative;
+                                            top:0;
+                                            right:0;
+                                            width:100%;
+                                            background:#232323;
+                                            > .sub-gap {
+                                                padding:0 25px 10px 25px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #wrap #header.h60 {
+        .container {
+            .gap {
+                .wrap {
+                    #nav {
+                        top:60px;
+                       ul {
+                           li {
+                               .sub {
+                                   top:0;
+                               }
+                           }
+                       }
+                    }
+                }
+            }
+        }
+    }
+
+    #wrap #main #section2,
+    #wrap #main #section3 {
+        padding: 70px 0;
+        .container .gap .wrap .content {
+            padding: 50px 0 0 0;
+        }
+    }
+
+    #wrap #main #section7 .container .gap .wrap .content > ul {
+        flex-flow:row wrap;
+        > li {
+            width:50%;
+            .col-gap {
+                margin:15px;
+            }
+        }
+    }
+
+    #wrap #main #section10 .container .gap .wrap .content form {
+        width: 80%;
+        margin: 0 auto;
+      }
+      
+
+    #wrap #footer .container .gap .wrap .content {
+        text-align:center;
+        .top {
+            > ul {
+                flex-flow:row wrap;
+                > li {
+                    width:100%;
+                    .col-gap {
+                        margin:15px;
+                    }
+                }
+            }
+        }
+        .bottom {
+            > ul {
+                flex-flow:row wrap;
+                > li {
+                    width:100%;
+                    &:nth-child(1) {text-align:center;}
+                    &:nth-child(2) {text-align:center;}
+                    .col-gap {
+                        margin:15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width:920px){
+
+    #wrap #main #section2 .container .gap .wrap {
+        .title h2 {
+            width:70%;
+            margin:0 auto;
+            br {
+                display:none;
+            }
+        }
+        .content {
+            > ul {
+            flex-flow:row wrap;
+                > li {
+                    width:50%;
+                    .col-gap {
+                        margin:15px;
+                    }
+                }
+            }
+        }    
+    }
+
+    #wrap #main #section3 .container .gap .wrap {
+        .content > ul {
+            flex-flow:row wrap;
+            > li {
+                width:50%;
+                .col-gap {
+                    padding:15px;
+                }
+            }
+        }
+        .title h2 {
+            font-size: 25px;
+        }
+    }
+    #wrap #main #section5 .container .gap .wrap .content ul.svg-box {
+        flex-flow:row wrap;
+        li {
+            width:50%;
+            .col-gap {
+                margin:20px 15px;
+            }
+        }
+    }
+
+    #wrap #main #section9 .container .gap .wrap .content > ul {
+        flex-flow:row wrap;
+        > li {
+            width:50%;
+            .col-gap {
+                margin:15px;
+            }
+        }
+    }
+
+}
+
+@media all and (max-width:800px){
+
+    #wrap #main #section4 .container .gap .wrap #nav ul li {
+        display:block;
+        margin:15px;
+    }
+
+    #wrap #main #section8 .container .gap .wrap .content > ul {
+        flex-flow:row wrap;
+        > li {
+            width:100%;
+            &:nth-child(1){
+                .img-box {
+                    height:400px;
+                }
+            }
+            &:nth-child(2){
+                ul {
+                    padding:15.76458% * 0.65 ;
+                    li {
+                        h2 {
+                            font-size:2.56410vw * 1.5;
+                            line-height:4vw;
+                        }
+                        p {
+                            line-height:22px;
+                        }
+                        text-align:center;
+                    }
+                }
+            }
+        }
+    }
+
+}
+@media all and (max-width:660px){
+
+    #wrap #main #section2 .container .gap .wrap .content > ul > li {
+        width:100%;    
+    }
+
+    #wrap #main #section6 .container .gap .wrap .content > ul {
+        > li {
+            width:100%;
+        }
+    }
+
+}
+
+@media all and (max-width:600px){
+
+    #wrap #main #section3 .container .gap .wrap .title h2 {
+        font-size: 21px;
+    }
+    #wrap #main #section7 .container .gap .wrap .content > ul {
+        > li {
+            width:100%;
+        }
+    }
+    #wrap #main #section9 .container .gap .wrap .content > ul {
+        > li {
+            width:100%;
+        }
+    }
+
+}
+
+@media all and (max-width:500px){
+
+    #wrap #main #section2 .container .gap .wrap {
+        .title h2 {
+            width:80%;
+            margin:0 auto;
+            font-size:18px;
+            line-height:130%;
+            text-align:justify;
+            br {
+                display:none;
+            }
+        }
+    }
+
+    #wrap #main #section3 .container .gap .wrap .content > ul {
+        > li {
+            width:100%;
+        }
+    }
+
+    #wrap #main #section5 .container .gap .wrap .content ul.svg-box {
+        li {
+            width:100%;
+        }
+    }
+
+    #wrap #main #section6 .container .gap .wrap .content > ul > li .col-gap .col-wrap .caption ul li {
+        padding:2% 0;
+    }
+
+    #wrap #quick {
+        display:none;
+    }
+    
+    #wrap #main #section8 .container .gap .wrap .content > ul {
+        flex-flow:row wrap;
+        > li {
+            width:100%;
+            &:nth-child(1){
+                .img-box {
+                    height:300px;
+                }
+            }
+            &:nth-child(2){
+                ul {
+                    padding:15.76458% * 0.65 ;
+                    li {
+                        h2 {
+                            font-size:2.56410vw * 1.5;
+                            line-height:4vw;
+                        }
+                        p {
+                            font-size:13px;
+                            line-height:20px;
+                        }
+                        text-align:center;
+                    }
+                }
+            }
+        }
+    }
+
+}
